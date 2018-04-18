@@ -1,0 +1,18 @@
+html,
+body {
+	height: 100%;
+}
+/*cover*/
+#cover {
+	background: #222 url(https://images.unsplash.com/photo-1488866022504-f2584929ca5f?dpr=1.5&auto=format&fit=crop&w=767&h=516&q=80&cs=tinysrgb&crop=) center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+#cover-caption
+{
+	width: 100%;
+}

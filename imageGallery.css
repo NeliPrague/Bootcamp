@@ -1,0 +1,17 @@
+body{
+	padding-top: 70px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:white;
+}
+.navbar-inverse .navbar-brand {
+	color:white;
+/*}
+.thumbnail .image
+{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-color: pink;
+  background-position: center;
+}*/

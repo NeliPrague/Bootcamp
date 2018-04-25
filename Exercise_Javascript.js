@@ -26,11 +26,28 @@ console.log("Multiple numbers are: " + duplicate); //Chybí ale 3
 
 ///2D) Na vstupu je kromě pole zadané číslo x. Zkontroluj jestli se hledané číslo x vyskytuje v poli numbers.
 //Příklad vstupu: var x = 3; var x = 8;
-// var x = 3; var y = 8;
+var a = 3; var b = 8;
 // console.log("numbers contains number 3" + numbers.indexOf(x)));
+if(numbers.indexOf(a)>=0)
+{
+  console.log("numbers contains number " + a);
+} else {
+    console.log("numbers doesn't contain number " + a);
+  }
+
+  if(numbers.indexOf(b)>=0)
+  {
+    console.log("numbers contains number " + b);
+  } else {
+      console.log("numbers doesn't contain number " + b);
+  }
 
 //2E] Spočítej a vypiš součet hodnot v poli numbers.
 // console.log("Total is: " + Math.sum(...numbers));
+for (var i = 0, sum = 0; i < numbers.length; sum += numbers[i++]);
+{
+  console.log("Total is: " + sum)
+}
 
 // 3) Na vstupu je textový řetězec a hledaný znak. Z textového řetězce odstraň hledaný znak a výsledek ulož v jiné proměnné.
 //vstupy:
